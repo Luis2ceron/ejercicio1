@@ -4,16 +4,16 @@ namespace ejemplo4_1
     {
         public static void Main()
         {
-            int cont = 0;
-            int num;
+            int contador = 0;
+            int num1;
             int sum = 0;
 ;
             while (cont < 10)
             {
-                cont++;
+                contador++;
                 Console.WriteLine("Ingrese el numero:");
-               num=Convert.ToInt32( Console.ReadLine());
-                  sum = sum + num;
+               num1=Convert.ToInt32( Console.ReadLine());
+                  sum = sum + num1;
 ;
             }
             Console.WriteLine("La suma de los 10 numeros es " + sum);
