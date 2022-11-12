@@ -15,12 +15,6 @@
             var Respuesta = Convert.ToString(Console.ReadLine());
 
 
-
-            if (Respuesta != "s" || Respuesta != "S" || Respuesta != "r" || Respuesta != "R")
-            {
-                Console.WriteLine("Valor no permitido");
-            }
-
             if (Respuesta == "s" || Respuesta == "S")
             {
                 double solucion = num1 + num2;
