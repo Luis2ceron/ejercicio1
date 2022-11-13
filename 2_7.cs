@@ -14,7 +14,7 @@
             double pagoGalon = (Convert.ToDouble(Console.ReadLine()));
 
             Console.WriteLine("la cantidad de leche en galones es  " + galones_vendidos);
-         Console.WriteLine("la cantidad de leche en galones es  " + galones_vendidos);
+         Console.WriteLine("la cantidad de galones de leche vendida es  " + (galones_vendidos * pagoGalon));
         }
 
 
