@@ -1,6 +1,6 @@
 ﻿namespace Ejemplos
 { 
-    public class ejercicio2_10
+    public class ejercicio2_7
 {
     public static void Main()
     {
